@@ -53,6 +53,6 @@
 # print(my_tuple.index('banana'))
 
 #deleting a tuple
-my_tuple=('apple','banana','cheryy')
-del my_tuple
-print(my_tuple)
+# my_tuple=('apple','banana','cheryy')
+# del my_tuple
+# print(my_tuple)
