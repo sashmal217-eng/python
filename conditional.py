@@ -76,3 +76,38 @@
 # else:
 #     result="invalid operation"
 # print("result:",result)        
+
+#pass statement
+# a=10
+# if a>3:
+#     pass
+
+#continue statement
+# for i in range(5):
+#     if i ==3:
+#         continue
+#     print(i)
+
+#break statement
+# for i in range(5):
+#     if i==3:
+#         break
+#     print(i)
+
+# else with loop
+# for i in range(5):
+#     print(i)
+# else:
+#     print("loop completed")
+        
+a=0
+# while a<5:
+#     print(a)
+#     a+=1
+# else:
+#     print("loop completed")    
+
+#nested loop
+# for i in range(3):
+#     for j in range(2):
+#         print(i,j)
