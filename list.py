@@ -69,9 +69,8 @@
 # copied_list=orginal_list.copy()
 # copied_list=orginal_list[:]
 
-# list1=['apple','banana']
-# list2=['cherry','orange']
-# combianed_list=list1+list2
-# print(combianed_list)
-# list1.extend(list2)
-# print(list1)
+#joining list
+# list1=['apple','banana',]
+# list2=['cherry','orenge']
+# combained_list=list1+list2
+# print(combained_list)
