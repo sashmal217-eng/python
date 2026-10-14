@@ -47,3 +47,48 @@
 
 # details(name="nafi", age=22, place="palakkad")    
     
+
+#return statement
+# def add(a,b):
+#     return(a+b)
+# c=add(10,20)
+# print(c)
+
+#docstring in functions
+# def add(a,b):
+#     """this function add two numbers"""
+#     return a+b
+# print(add.__doc__)
+
+#lambda functuion 
+# add=lambda a,b:a+b
+# print(add(10,20))
+
+
+#lambda function wuth map()
+# numbers=[1,2,3,4]
+# squared=map(lambda x:x**2,numbers)
+# print(list(squared))
+
+#using with filter
+# numbers=[1,2,3,4,5,6]
+# even_numbers=filter(lambda x:x %2==0,numbers)
+# print(list(even_numbers))
+
+# using with reduce
+# from functools import reduce
+# numbers=[1,2,3,4]
+# sum_result=reduce(lambda x,y:x+y,numbers)
+# print(sum_result)
+
+#function scop
+x=10 #global scop
+# def greet():
+#     x=5 #enclosing scop
+#     def greet1():
+#         x=2 #local scop
+#         print(x)
+#     greet1()
+
+# greet()
+# print(x)        
