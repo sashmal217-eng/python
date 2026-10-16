@@ -82,7 +82,7 @@
 # print(sum_result)
 
 #function scop
-x=10 #global scop
+# x=10 #global scop
 # def greet():
 #     x=5 #enclosing scop
 #     def greet1():
@@ -92,3 +92,39 @@ x=10 #global scop
 
 # greet()
 # print(x)        
+
+#recursive function for factorial
+# def factorial(n):
+#     if n==0 or n==1:
+#         return 1
+#     else:
+#         return n* factorial(n-1)
+# print(factorial(5))
+
+#recursive function for fibonacci
+# def fibonacci(n):
+#     if n==0:
+#         return 0
+#     elif n==1:
+#         return 1
+#     else:
+#         return fibonacci(n-1)+fibonacci(n-2)
+# print(fibonacci(6))
+    
+
+#iterative factorial
+
+# def iterative_factorial(n):
+#     result=1
+#     for i in range(1,n+1):
+#     result+=i
+#     return result
+
+#recursive funtion for sum
+# def sum_list(lst):
+#     if not lst:
+#         return 0
+#     else:
+#         return lst[0]+sum_list(lst[1:])
+# print(sum_list([1,2,3,4,5]))
+

@@ -13,9 +13,9 @@
 #updating a tuple
 
 #reassignign a tuple
-my_tuple=(1,2,3)
-my_tuple=(4,5,6)
-print(my_tuple)
+# my_tuple=(1,2,3)
+# my_tuple=(4,5,6)
+# print(my_tuple)
 
 #convert tuple to list
 # my_tuple=('apple','banana','cherry')
