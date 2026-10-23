@@ -1,0 +1,3 @@
+hello
+welcom to python file handling
+appented text.
